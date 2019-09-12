@@ -1,7 +1,8 @@
 body{
-    background-image: url('https://sonartdaycamp.com/wp-content/uploads/2017/12/Sky-background-1-v-kr-FOND-BLEU-5-1170x836.jpg');
+    background-image: url('https://spidermonkeymotorsports.files.wordpress.com/2015/03/wallpaper-3840x2160-sea-beach-evening-sun-sunset-4k-ultra-hd-hd-background.jpg');
     background-size: cover;
-    font-size: 20pt;
+    font-size: 30pt;
+    color: black;
     
 }
 
@@ -29,7 +30,19 @@ body{
 img{
     width: 50px;
 }
-
+#previous{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    border: 2px solid green;
+    width: 450px;
+    padding: 5px;
+    font-size: 40pt;
+    color: red;
+    background: yellowgreen;
+    border-radius: 18px;
+}
 
 
 

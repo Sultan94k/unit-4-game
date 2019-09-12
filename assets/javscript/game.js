@@ -19,7 +19,7 @@ var resetAndStart = function () {
 
     console.log(random_result);
 
-    $("#result").html('Random Result: ' + random_result);
+    $("#result").html('Random Number: ' + random_result);
 
     for (var i = 0; i < 4; i++) {
 
