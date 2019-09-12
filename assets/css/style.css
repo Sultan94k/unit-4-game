@@ -1,3 +1,10 @@
+body{
+    background-image: url('https://sonartdaycamp.com/wp-content/uploads/2017/12/Sky-background-1-v-kr-FOND-BLEU-5-1170x836.jpg');
+    background-size: cover;
+    font-size: 20pt;
+    
+}
+
 .crystals{
     display: flex;
     justify-content: space-around;
@@ -8,6 +15,19 @@
     border: 1px solid green;
     height: 200px;
     width: 200px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.7s, transform 2s;
+}
+
+.crystal:hover{
+    box-shadow: 18px 18px 18px rgba(0, 0, 0, 0.5);
+    transform: translate(3px,30px);
+    cursor: pointer;
+    transition: box-shadow 0.7s, transform 0.6s;
+}
+img{
+    width: 50px;
 }
 
 
@@ -16,48 +36,3 @@
 
 
 
-
-/* *  border: red;
-    padding: 22px;
-    width: 300px;
-    text-align: center;
-    color: white;
-    background: brown;
-    font-size: 22pt;
-}
-.wrapper{
-    font: bold;
-    font-size: 16pt;
-    border: solid 2px red;
-    padding: 10px;
-    margin: 10px;
-    height: 500px;
-    width: 500px;
-    background: rgb(212, 212, 57);
-}
-.row {
-    clear: both;
-    display: grid;
-
-}
-.col-4{
-    font: bold;
-    font-size: 16pt;
-    border: solid 2px red;
-    padding: 10px;
-    margin: 10px;
-    height: 100px;
-    width: 250px;
-    background: rgb(212, 212, 57);
-}
-.col-1{
-    font: bold;
-    font-size: 16pt;
-    border: solid 2px red;
-    padding: 10px;
-    margin: 10px;
-    height: 100px;
-    width: 75px;
-    background: rgb(212, 212, 57);
-    float: left;
-} */
